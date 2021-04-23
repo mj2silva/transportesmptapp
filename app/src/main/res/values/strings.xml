@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">transportesmptapp</string>
-    <string name="welcome_message">Bienvenido al sistema de licencias de la MPT</string>
+    <string name="welcome_message">Sistema de licencias de la MPT</string>
     <!-- Descripciones -->
     <string name="logo_description">Logo de la Municipalidad Provincial de Trujillo</string>
     <string name="btn_request_service_description">Imagen del botón solicitar servicio</string>
@@ -26,4 +26,15 @@
     <string name="alert_negative">No</string>
     <string name="alert_positive">Si</string>
     <string name="alert_accept">Aceptar</string>
+    <!--Request new license -->
+    <string name="tv_new_license_title">Solicitar nueva licencia</string>
+    <string name="tv_new_license_dni">DNI</string>
+    <string name="tv_new_license_names">Nombres</string>
+    <string name="tv_new_license_first_last_name">Apellido paterno</string>
+    <string name="tv_new_license_second_last_name">Apellido materno</string>
+    <string name="tv_new_license_address">Dirección</string>
+    <string name="tv_new_license_email">Email</string>
+    <string name="tv_new_license_phone_number">Número de teléfono</string>
+    <string name="btn_new_license_next">Siguiente</string>
+    <string name="btn_new_license_back">Inicio</string>
 </resources>
