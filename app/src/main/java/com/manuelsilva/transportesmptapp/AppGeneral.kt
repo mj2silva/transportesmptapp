@@ -2,10 +2,13 @@ package com.manuelsilva.transportesmptapp
 
 import android.app.Application
 import android.content.Context
+import com.manuelsilva.transportesmptapp.repository.DbConnection
+import java.sql.Connection
 
 class AppGeneral : Application() {
   companion object{
     lateinit var CONTEXT: Context
+    lateinit var DB: DbConnection
     /* lateinit var DB:FirebaseFirestore
     lateinit var STORAGE:FirebaseStorage
     lateinit var AUTH:FirebaseAuth
@@ -18,7 +21,8 @@ class AppGeneral : Application() {
 
   override fun onCreate() {
     super.onCreate()
-    CONTEXT=applicationContext
+    CONTEXT = applicationContext
+    DB = DbConnection()
     /* DB=FirebaseFirestore.getInstance()
     STORAGE = FirebaseStorage.getInstance()
     carrito = ArrayList()

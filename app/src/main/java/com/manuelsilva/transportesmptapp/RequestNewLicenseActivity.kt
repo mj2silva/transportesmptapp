@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.manuelsilva.transportesmptapp.repository.PersonRepository
 import com.manuelsilva.transportesmptapp.utils.Alerts
 import com.manuelsilva.transportesmptapp.utils.Validators
 
@@ -36,6 +37,11 @@ class RequestNewLicenseActivity : AppCompatActivity() {
 
     btnPrev.setOnClickListener{ goBack() }
     btnNext.setOnClickListener{ goNext() }
+
+    val persons = PersonRepository.getPersons()
+    persons.forEach {
+      person -> Alerts.showToast(AppGeneral.CONTEXT, person.names!! + person.firstLastName!!)
+    }
   }
 
   private fun goBack() {
