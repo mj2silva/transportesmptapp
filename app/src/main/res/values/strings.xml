@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">transportesmptapp</string>
+    <string name="welcome_message">Bienvenido al sistema de licencias de la MPT</string>
+    <!-- Descripciones -->
+    <string name="logo_description">Logo de la Municipalidad Provincial de Trujillo</string>
+    <string name="btn_request_service_description">Imagen del botón solicitar servicio</string>
+    <string name="btn_track_request_status_description">Imagen del botón realizar seguimiento</string>
+    <string name="btn_check_licence_status_description">Imagen del botón consultar estado de licencia</string>
+    <string name="btn_request_new_licence_description">Imagen del botón solicitar nueva licencia</string>
+    <string name="btn_request_licence_duplicate_description">Imagen del botón solicitar duplicado de licencia</string>
+    <string name="btn_request_licence_revalidation_description">Imagen del botón consultar revalidación de licencia</string>
+    <!-- Text views -->
+    <!-- Home -->
+    <string name="app_title">Licencias MPT</string>
+    <string name="tv_btn_request_service">Solicitar servicio</string>
+    <string name="tv_btn_track_request_status">Realizar seguimiento</string>
+    <string name="tv_btn_check_licence_status">Consultar estado de licencia</string>
+    <!-- Request Service -->
+    <string name="request_service_title">Solicitar servicio</string>
+    <string name="request_service_welcome_message">Bienvenido</string>
+    <string name="request_service_instructions">Seleccione el servicio que desea utilizar</string>
+    <string name="tv_btn_request_new_licence">Solicitar licencia nueva</string>
+    <string name="tv_btn_request_licence_duplicate">Solicitar duplicado de licencia</string>
+    <string name="tv_btn_request_licence_revalidation">Solicitar revalidación de licencia</string>
+    <!-- Alert dialogs -->
+    <string name="alert_negative">No</string>
+    <string name="alert_positive">Si</string>
+    <string name="alert_accept">Aceptar</string>
 </resources>
