@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import com.manuelsilva.transportesmptapp.models.LicenseRequest
 import com.manuelsilva.transportesmptapp.utils.Alerts
 
 class HomeActivity : AppCompatActivity() {
@@ -22,6 +23,8 @@ class HomeActivity : AppCompatActivity() {
     btnRequestService.setOnClickListener { openRequestService() }
     btnTrackRequestStatus.setOnClickListener { openTrackRequestStatus() }
     btnCheckLicenceStatus.setOnClickListener { openCheckLicenceStatus() }
+
+    AppGeneral.licenseRequest = LicenseRequest()
   }
 
   private fun openRequestService() {

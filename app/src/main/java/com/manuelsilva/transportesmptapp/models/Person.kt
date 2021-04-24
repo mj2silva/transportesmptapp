@@ -1,7 +1,9 @@
 package com.manuelsilva.transportesmptapp.models
 
+import java.util.*
+
 class Person {
-  var id: String? = null
+  var id: Int? = null
   var dni: String? = null
   var names: String? = null
   var firstLastName: String? = null
@@ -9,7 +11,9 @@ class Person {
   var address: String? = null
   var email: String? = null
   var phoneNumber: String? = null
-  var birthDate: String? = null
+  var birthDate: Date? = null
+
+  constructor()
 
   constructor(
     dni: String?,
@@ -18,7 +22,8 @@ class Person {
     secondLastName: String?,
     address: String?,
     email: String?,
-    phoneNumber: String?
+    phoneNumber: String?,
+    birthDate: Date?
   ) {
     this.dni = dni
     this.names = names
@@ -27,17 +32,19 @@ class Person {
     this.address = address
     this.email = email
     this.phoneNumber = phoneNumber
+    this.birthDate = birthDate
   }
 
   constructor(
-    id: String?,
+    id: Int?,
     dni: String?,
     names: String?,
     firstLastName: String?,
     secondLastName: String?,
     address: String?,
     email: String?,
-    phoneNumber: String?
+    phoneNumber: String?,
+    birthDate: Date?
   ) {
     this.id = id
     this.dni = dni
@@ -47,6 +54,7 @@ class Person {
     this.address = address
     this.email = email
     this.phoneNumber = phoneNumber
+    this.birthDate = birthDate
   }
 
 

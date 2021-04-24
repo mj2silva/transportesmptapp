@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.manuelsilva.transportesmptapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".AppGeneral"
         android:allowBackup="true"
@@ -10,15 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Transportesmptapp">
-        <activity android:name=".RequestNewLicenseActivity"></activity>
+        <activity android:name=".RequestNewLicenseOtherDataActivity"></activity>
+        <activity android:name=".RequestNewLicenseSatPaymentActivity" />
+        <activity android:name=".RequestNewLicenceMedicTestActivity" />
+        <activity android:name=".RequestNewLicenseActivity" />
         <activity android:name=".RequestServiceActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

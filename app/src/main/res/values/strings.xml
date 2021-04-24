@@ -26,15 +26,40 @@
     <string name="alert_negative">No</string>
     <string name="alert_positive">Si</string>
     <string name="alert_accept">Aceptar</string>
+    <string name="alert_loading">Cargando</string>
     <!--Request new license -->
     <string name="tv_new_license_title">Solicitar nueva licencia</string>
+    <!-- Datos de la persona -->
+    <string name="tv_new_license_title_person_data">Datos del solicitante</string>
     <string name="tv_new_license_dni">DNI</string>
     <string name="tv_new_license_names">Nombres</string>
     <string name="tv_new_license_first_last_name">Apellido paterno</string>
     <string name="tv_new_license_second_last_name">Apellido materno</string>
     <string name="tv_new_license_address">Dirección</string>
     <string name="tv_new_license_email">Email</string>
+    <string name="tv_new_license_birth_date">Fecha de nacimiento</string>
     <string name="tv_new_license_phone_number">Número de teléfono</string>
+    <!-- Datos del exámen médico -->
+    <string name="tv_new_license_title_medical_test">Datos del examen médico</string>
+    <string name="tv_new_license_medical_test_date">Fecha de examen médico</string>
+    <string name="tv_new_license_medical_test_center">Centro médico</string>
+    <string name="tv_new_license_medical_test_pdf">Adjuntar PDF de exámen médico</string>
+    <!-- Datos del pago -->
+    <string name="tv_new_license_title_payment">Datos del pagon en SAT</string>
+    <string name="tv_new_license_school_certificate">Certificado de estudios</string>
+    <string name="tv_new_license_payment_date">Fecha de pago</string>
+    <string name="tv_new_license_payment_time">Hora</string>
+    <string name="tv_new_license_payment_receipt_number">N° de recibo</string>
+    <string name="tv_new_license_payment_attach_receipt">Adjuntar recibo</string>
+    <!-- Otros documentos -->
+    <string name="tv_new_license_infractions_record">Récord de infracciones</string>
+    <string name="tv_new_license_payment_ammount">Monto</string>
+    <string name="tv_new_license_person_picture">Foto</string>
+    <!-- Botones generales -->
+    <string name="tv_btn_attach_pdf">Adjuntar PDF</string>
+    <string name="btn_attach_pdf">Adjuntar</string>
     <string name="btn_new_license_next">Siguiente</string>
+    <string name="btn_new_license_prev">Atrás</string>
     <string name="btn_new_license_back">Inicio</string>
+    <string name="btn_new_license_finish">Enviar</string>
 </resources>
